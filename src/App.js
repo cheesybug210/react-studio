@@ -27,9 +27,9 @@ function App () {
 
   return (
     <div className="App">
-      <h1>My Bakery</h1> {/* TODO: personalize your bakery (if you want) */}
+      <h1>By Makery</h1>
       <div className="bakery-items">
-        {bakeryData.map((item, index) => ( // TODO: map bakeryData to BakeryItem components
+        {bakeryData.map((item, index) => (
           <BakeryItem
             img={item.image}
             name={item.name}
